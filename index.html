@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta property="og:title" content="Site Under Construction" />
+    <meta property="og:title" content="Work in Progress" />
     <meta
       property="og:description"
-      content="This GitHub Pages site is currently under construction. Please check back later."
+      content="This GitHub Pages site is a work in progress. Please check back later."
     />
     <meta
       property="og:image"
-      content="https://github.com/pagedeploy/cdn/blob/main/github.png?raw=true"
+      content="https://github.com/pagedeploy/cdn/blob/main/construction.png?raw=true"
     />
     <meta property="og:url" content="https://pagedeploy.github.io" />
     <meta property="og:type" content="website" />
 
     <link
       rel="icon"
-      href="https://github.com/pagedeploy/cdn/blob/main/github.png?raw=true"
+      href="https://github.com/pagedeploy/cdn/blob/main/construction.png?raw=true"
     />
-    <title>Site Under Construction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Work in Progress</title>
     <style>
-      .main {
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 98vh;
       }
 
-      .image {
-        width: 500px; /* Adjust the width as needed */
-        height: auto; /* Maintain aspect ratio */
+      img {
+        max-width: 60vw;
+        max-height: 60vh;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        display: block;
       }
 
       p {
         font-family: "Montserrat", sans-serif;
         text-align: center;
-        margin-top: 32px; /* Adjust margin as needed */
-        font-size: 24px; /* Adjust size as needed */
+        margin: 32px 20px 0px 20px;
+        font-size: 24px;
       }
     </style>
     <link
@@ -45,13 +55,9 @@
     />
   </head>
   <body>
-    <div class="main">
       <img
-        class="image"
         src="https://www.svgrepo.com/show/439171/github.svg"
-        alt="image"
       />
-      <p>This GitHub Pages site is currently under construction. Please check back later.</p>
-    </div>
+      <p>This GitHub Pages site is a work in progress. Please check back later.</p>
   </body>
 </html>
